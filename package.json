@@ -1,0 +1,23 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajadanjidani/landingpage.git"
+  },
+  "author": "sajad anjidani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajadanjidani/landingpage/issues"
+  },
+  "homepage": "https://github.com/sajadanjidani/landingpage#readme",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
